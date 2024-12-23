@@ -24,12 +24,12 @@
           </div>
         </div>
         <div class="sidebar-mid-content">
-          <div class="home side-text">Home</div>
-          <div class="profile side-text">Profile</div>
-          <div class="messages side-text">Messages</div>
-          <div class="history side-text">History</div>
-          <div class="tasks side-text">Tasks</div>
-          <div class="communities side-text">Communities</div>
+          <div class="side-text">Home</div>
+          <div class="side-text">Profile</div>
+          <div class="side-text">Messages</div>
+          <div class="side-text">History</div>
+          <div class="side-text">Tasks</div>
+          <div class="side-text">Communities</div>
         </div>
         <div class="sidebar-bottom-icon">
           <div>
@@ -39,34 +39,46 @@
           <div><img class="icon" src="icons/privacy.svg" alt="privacy" /></div>
         </div>
         <div class="sidebar-bottom-content">
-          <div class="settings side-text">Settings</div>
-          <div class="support side-text">Support</div>
-          <div class="privacy side-text">Privacy</div>
+          <div class="side-text">Settings</div>
+          <div class="side-text">Support</div>
+          <div class="side-text">Privacy</div>
         </div>
       </div>
       <div class="header">
-        <div>
-          <div class="search">
+        <div class="search">
+          <div>
             <img class="icon" src="icons/search.svg" alt="search" />
-            <input type="text" />
           </div>
-          <div class="bell">
+          <input type="text" id="searchbar" name="searchbar" />
+        </div>
+        <div class="profile">
+          <div>
             <img class="icon" src="icons/bell.svg" alt="notification" />
           </div>
-          <div class="p-image"></div>
-          <div class="u-name">Dark Prince</div>
+          <div>
+            <img
+              class="profile-pic"
+              src="images/dark-prince.png"
+              alt="profile-pic"
+            />
+          </div>
+          <h3>Dark Prince</h3>
         </div>
-        <div>
-          <div class="p-pic"></div>
-          <div class="msg">Hi there,</div>
-          <div class="user-name">Dark Prince</div>
-          <button type="button">new</button>
+        <div class="info">
+          <img class="p-pic" src="images/dark-prince.png" alt="profile-pic" />
+          <div class="msg">
+            <strong>Hi there,</strong>
+            <h2>Dark Prince (@dark-prince05)</h2>
+          </div>
+        </div>
+        <div class="buttons">
+          <button type="button">New</button>
           <button type="button">Upload</button>
           <button type="button">Share</button>
         </div>
       </div>
       <div class="main">
-        <div class="title">My Projects</div>
+        <h3>Projects</h3>
         <div class="cards"></div>
         <div class="cards"></div>
         <div class="cards"></div>
@@ -78,8 +90,10 @@
         Tools Used
         <div class=""></div>
       </div>
-      <div class="lang">Languages Known</div>
-      <div class=""></div>
+      <div class="lang">
+        Languages Known
+        <div class=""></div>
+      </div>
     </div>
   </body>
 </html>
