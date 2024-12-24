@@ -11,7 +11,18 @@
   --shadow: #94a3b8;
   --yellow: #fbbf24;
 }
-
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+}
+a:hover {
+  color: var(--skyblue);
+}
+.git-link {
+  font-size: 1.5em;
+}
 .container {
   display: grid;
   grid-template: 0.9fr 5fr / 1fr 2.7fr 1fr;
@@ -143,6 +154,9 @@ button {
   box-shadow: 1px 2px 5px var(--shadow);
   display: grid;
   grid-template-rows: 2fr 0.7fr;
+}
+.card:hover {
+  background: var(--grey);
 }
 .main {
   grid-area: 2 / 2 / 3/ 3;
