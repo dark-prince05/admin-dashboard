@@ -13,7 +13,6 @@
 }
 a {
   text-decoration: none;
-  font-size: 1.2em;
   font-weight: bold;
   color: black;
 }
@@ -21,18 +20,18 @@ a:hover {
   color: var(--skyblue);
 }
 .git-link {
-  font-size: 1.5em;
+  font-size: 1.4rem;
 }
 .container {
   display: grid;
-  grid-template: 0.9fr 5fr / 1fr 2.7fr 1fr;
+  grid-template: 180px 5fr / 1fr 2.7fr 1fr;
 }
 .side-text {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 .icon {
-  width: 1.5em;
+  width: 1.5rem;
   height: auto;
 }
 .sidebar {
@@ -71,7 +70,7 @@ a:hover {
 .header {
   grid-area: 1 / 2 / 2 / 4;
   display: grid;
-  grid-template: 1fr 1.5fr / 2fr 1.3fr;
+  grid-template: 1fr 1.5fr / 2fr 1fr;
   box-shadow: 0 2px 5px var(--shadow);
   z-index: 1;
 }
@@ -110,8 +109,6 @@ a:hover {
   gap: 30px;
 }
 button {
-  width: 95px;
-  height: 40px;
   background: var(--skyblue);
   color: var(--white);
   font-size: 0.9em;
@@ -122,9 +119,9 @@ button {
 .buttons {
   display: grid;
   align-items: center;
-  place-content: center;
+  justify-items: stretch;
   grid-auto-flow: column;
-  gap: 25px;
+  gap: 20px;
 }
 .p-pic {
   width: 80px;
